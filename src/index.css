@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slick-arrow::before {
+  color: gray;
+}
+
+.grad {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.27494747899159666) 60%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+}
+.vid {
+  /* background-color: rgb(0, 0, 0); */
+  width: 100%;
+  background-color: rgb(27, 28, 39);
+  border: none;
+  padding: 10px;
+}
+/* .antialiased {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+} */
+
+/* .box-shadow {
+  box-shadow: inset -7em 0em black;
+  z-index: 10;
+} */
